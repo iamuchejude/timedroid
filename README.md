@@ -1,12 +1,12 @@
-# timedroid
+# Timedroid
 A facebook messenger bot that tells what exactly the time is.
 More Feature like Setting of Reminder  are coming soon.
 
-# Getting Started
+* Getting Started
 Clone this repository
 Upload index.php in the bot server, get access_token, verify_token and save.
 
-# Setting up Bot ();
+* Setting up Bot;
 The bot being a timebot does not mean it functionality cannot be changer. To edit reply and messenger in your chat bot, delete the following from the index.php file in the bot script:
 ```php
 		if(preg_match('[time|current time|now]', strtolower($message))) {
